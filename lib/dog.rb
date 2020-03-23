@@ -1,6 +1,8 @@
 # Add your code here
 class Dog 
   
+  attr_accessor :name
+  
   #holds all dogs
   @@dogs = []
   
@@ -16,5 +18,10 @@ class Dog
   end
 
   #clears array of dogs
+  def self.clear_all 
+    @@dogs.clear
+  end
+
+  #
 
 end 
