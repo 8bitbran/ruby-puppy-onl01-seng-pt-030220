@@ -9,7 +9,7 @@ class Dog
   def initialize(name)
     @name = name 
     #adds each new dog to array of dogs
-    self.save
+    save
   end 
   
   #returns all dogs
@@ -29,7 +29,7 @@ class Dog
     end
   end 
 
-  def self.save
+  def save
     @@all << self
   end 
   
