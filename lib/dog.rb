@@ -24,9 +24,9 @@ class Dog
 
   #prints all dogs 
   def self.print_all 
-    @@all.each do |dog| 
-      print dog
-    end 
+    @@all.each do |dog|
+      puts dog 
+    end
   end 
 
 end 
