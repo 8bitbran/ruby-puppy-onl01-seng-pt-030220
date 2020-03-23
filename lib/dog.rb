@@ -22,6 +22,9 @@ class Dog
     @@all.clear
   end
 
-  #
+  #prints all dogs 
+  def self.print_all 
+    print @@all
+  end 
 
 end 
